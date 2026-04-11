@@ -47,7 +47,7 @@ SUBSCRIPTIONS = {
 }
 
 PAYMENT_DETAILS = {
-    "Оплата картой рф": {
+    "Оплата на карту(руб)": {
         "ru": "Перевод на карту:\n2200271158995556",
         "en": "Card transfer:\n2200271158995556",
     },
@@ -230,7 +230,7 @@ def subscriptions_kb(lang: str) -> InlineKeyboardMarkup:
 
 def payment_kb(lang: str) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="Card", callback_data="pay_card")],
+        [InlineKeyboardButton(text="Оплата на карту(руб)", callback_data="pay_card")],
         [InlineKeyboardButton(text="USDT", callback_data="pay_usdt")],
         [InlineKeyboardButton(text="BTC", callback_data="pay_btc")],
         [InlineKeyboardButton(text="PayPal", callback_data="pay_paypal")],
