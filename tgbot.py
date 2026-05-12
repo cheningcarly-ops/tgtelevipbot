@@ -58,10 +58,10 @@ BOTS = [
     },
     {
         "bot_key": "model_2",
-        "token": "8701675874:AAEPU6lAFA7ycRLYPVVt7nN4tGNWy8VKlhA",
+        "token": "8493169140:AAHCDrWnKlAyO52PEVKkNMjyhcWR3-7ueys",
         "admin_id": 7258685639,
         "channel_id": -1003910551079,
-        "brand_name": "Skinlovers VIP",
+        "brand_name": "SweetKitKat VIP",
         "subscriptions": {
             "vip_month": {
                 "name_ru": "VIP на 1 месяц",
@@ -79,11 +79,7 @@ BOTS = [
             },
         },
         "payment_details": {
-            "card": {
-                "ru": "Перевод на карту РФ:\n2200152970572155",
-                "en": "Card transfer:\n5158810009471591",
-            },
-            "usdt": {
+               "usdt": {
                 "ru": "USDT TRC20\nTS5wFQBgRnPfVwM4GBuY5EArXFhNW4WZxi",
                 "en": "USDT TRC20\nTS5wFQBgRnPfVwM4GBuY5EArXFhNW4WZxi",
             },
