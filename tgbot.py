@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO)
 BOTS = [
     {
         "bot_key": "model_1",
-        "token": "8339719049:AAFbNPkZFHECNHLZP0QHmy5hjRacKrDwnZg",
+        "token": "8339719049:AAE0ocsrxts9aHO1OESH01Lf4H55lTLNubA",
         "admin_id": 6764552282,
         "channel_id": -1002025883162,
         "brand_name": "Montanavibes VIP",
